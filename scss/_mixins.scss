@@ -1,0 +1,7 @@
+/*@mixin textos: $colorLetra:elegir color en "_variables", $tamanioLetra: en rem*/
+@mixin textos ($colorLetra, $tamanioLetra, $grosorLetra, $alineacion) {
+    color: $colorLetra;
+    font-size: $tamanioLetra;
+    font-weight: $grosorLetra;
+    text-align: $alineacion;
+}

@@ -1,0 +1,31 @@
+.sectionHome{
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/gifBackground.gif);
+    background-size: cover;
+    margin-top: 1vw;
+    overflow: hidden;
+
+    .sectionHome__titulo{
+        /*textos: $colorLetra:elegir color en "_variables", $tamanioLetra: en rem*/
+        @include textos($colorUno, 4rem ,500 , center);
+        width: 50%;
+        padding: 3vw 0vw 0vw 6vw;
+    }
+    
+    .sectionHome__texto{
+        @include textos($colorUno, 4rem, 300, center);
+        width: 50%;
+        line-height: 200%;
+        padding-left: 6vw;
+        padding-top: 2vw;
+        padding-bottom: 2vw;
+    }
+
+    .boton__error{
+        padding-left: 22%;
+    }
+}
+
+
+

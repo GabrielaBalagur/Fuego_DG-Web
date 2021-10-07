@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="comunicacion visual, desarrollo web, grafico marca branding, contacto">
+    <meta name="description" content="Comunicacion visual integral. Diseño gráfico y desarrollo web. Si tu marca necesita chispa, contactame y juntes la volvemos un fuego!">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/estilosSass.css">
+    <title>FUEGO Comunicacion Visual y Desarrollo Web</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../index.html"><img src="../images/logo.png" alt="Logo FUEGO encendedor" class="navbar__logo"></a>
+                <button class="navbar-toggler navbar-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="../index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="quien.html">Quién</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="que.html">Qué</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="contacto.html">Contacto</a>
+                    </li>
+                </ul>
+                </div>
+            </div>
+        </nav>
+        <a href="https://wa.me/+5491135959943"target="_blank"><img src="../images/whatsappIcon.png" alt="Icono whatsapp" class="whatsapp"></a>
+    </header>
+
+    <main>
+        <div class="mainContacto">
+            <!--COMIENZO SECTION-->
+            <section class="textoImagen">
+                <p class="textoImagen__palabra textoImagen--left">PREGUNTAS</p>
+                <P class="textoImagen__palabra textoImagen--left">PEDIDOS</P>
+                <P class="textoImagen__palabra textoImagen--left">PROPUESTAS</P>
+                <P class="textoImagen__palabra textoImagen--left">CONTACTO</P>
+            </section>
+            <!--FIN SECTION-->
+
+            <!--COMIENZO FORMULARIO-->
+            <form class="form" action="">                
+                <label for="name">Nombre</label>
+                <input class="form__campo" type="text" placeholder="Ingrese su nombre" id="name">
+                
+                <label for="lastname">Apellido</label>
+                <input class="form__campo" type="text" placeholder="Ingrese su apellido o empresa" id="lastname">
+                
+                <label for="email">E-mail</label>
+                <input class="form__campo" type="email" placeholder="Ingrese su e-mail" id="email">
+                
+                <label for="message">Mensaje</label>
+                <textarea class="form__campo" name="" placeholder="Ingrese su mensaje" id="message" cols="50" rows="10"></textarea>
+                
+                <div class="formGenero">
+                    <span>Género</span>
+                    <label for="female">Femenino</label>
+                    <input class="form__campo" type="radio" id="female" name="genero">
+                    <label for="male">Masculino</label>
+                    <input class="form__campo" type="radio" id="male" name="genero">
+                    <label for="other">Otro</label>
+                    <input class="form__campo" type="radio" id="other" name="genero">
+                </div>
+                
+                <select name="" class="mainContacto__select">
+                    <option value="">Pregunta</option>
+                    <option value="">Pedido</option>
+                    <option value="">Propuesta</option>
+                </select>
+
+                <div class="news">
+                    <input class="form__campo" type="checkbox" id="news">
+                    <label for="news">Deseo recibir novedades</label>
+                </div>
+
+                <input type="reset" value="Borrar todo" class="reset">
+                <input type="submit" value="Enviar formulario" class="submit">            
+            </form>
+            <!--FIN FORMULARIO-->
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__divFlex">
+            <div>
+                <p class="footer__leyenda">Derechos reservados. Última actualización 2021.</p>
+            </div>
+            <a class="footer__contacto" href="contacto.html">Contacto</a>
+            <div class="footer__redes">
+                <a href="https://www.behance.net/ga_balagurDG" target="_blank"><img class="footer__icono" src="../images/footerIcon1.png" alt="Logo Behance"></a>
+                <a href="https://www.linkedin.com/in/gabriela-balagur-083407157/" target="_blank"><img class="footer__icono" src="../images/footerIcon2.png" alt="Logo Linkedin"></a>
+                <a href="https://www.instagram.com/" target="_blank"><img class="footer__icono" src="../images/footerIcon3.png" alt="Logo Instagram"></a>
+                <a href="https://www.youtube.com/channel/UCMFtHuRqJuUcMm-G3PdCVBw" target="_blank"><img class="footer__icono" src="../images/footerIcon4.png" alt="Logo Youtube"></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+</body>
+
+</html>

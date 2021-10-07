@@ -1,0 +1,27 @@
+.textoImagen{
+    width: 50%;
+    padding: 4vh;
+
+    .textoImagen__palabra{
+        line-height: 3.5vw;
+    }
+
+    .textoImagen--right{
+        @include textos($colorDos, 9rem, bolder, right);
+    }
+
+    .textoImagen--right:hover{
+        color: $colorSeis;
+        transition: all 0.5s;
+        transform: translate(-5vh,-5vh);
+    }
+
+    .textoImagen--left{
+        @include textos($colorCinco, 9rem, bolder, left);
+    }
+
+    .textoImagen--left:hover{
+        @extend .textoImagen--right:hover;
+        transform: translate(5vh,5vh);
+    }
+}

@@ -1,0 +1,18 @@
+.boton{
+    display: flex;
+    justify-content: center;
+
+    .boton__link{
+        @include textos($colorCinco, 1.5rem, 600, center);
+        padding: 1rem;
+        margin-bottom: 4rem;
+        border: outset;
+        background-color: $colorDos;
+        text-decoration: none;
+    }
+
+    .boton__link:hover{
+        background-color: #F5E833;
+        transition: 0.5s;
+    }
+}

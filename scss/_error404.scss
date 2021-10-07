@@ -1,0 +1,23 @@
+.mainError{
+    background-image: url(../images/error.png);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .mainError__texto h3{
+        padding-top: 4rem;
+        @include textos($colorDos, 2rem ,500 , center);
+    }
+
+    .mainError__texto p{
+        @include textos($colorCinco, 3rem ,500 , center);
+    }
+
+    .mainError__boton404Volver{
+        height: 100%;
+        align-items: flex-end;
+    }
+}

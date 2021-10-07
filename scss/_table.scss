@@ -1,0 +1,17 @@
+.table{
+    background-image: url(../images/tableBackground.png);
+    background-size: contain;
+    background-repeat: round;
+    padding: 1vw;
+
+    .table__th{
+        @include textos($colorCinco, 2rem, 500, center);
+        text-transform: uppercase;
+        padding: 1vw;
+    }
+
+    .table__td{
+        @include textos($colorCinco, 1.5rem, 400, center);
+        line-height: 3vw;
+    }
+}

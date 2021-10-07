@@ -1,0 +1,67 @@
+.sectionQuien{
+    display: flex;
+
+    #imagenQuien{
+        width: 30%;
+    }
+
+    .sectionQuien__titulo{
+        /*textos: $colorLetra:elegir color en "_variables", $tamanioLetra: en rem*/
+        @include textos($colorDos, 3rem ,500 , right);
+        padding: 4vw 4vw 1vw 0vw;
+    }
+
+    .sectionQuien__article{
+        width: 70%;
+        background-color: $colorUno;
+        display: flex;
+        flex-direction: column;
+    
+
+        .sectionQuien__containerCardsA{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+        }
+
+        .sectionQuien__containerCardsB{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+        }
+        
+        .sectionQuien__card{
+            color: $colorDos;
+            width: 40%;
+            background: none;
+            border: outset;
+            margin: 2vw;
+
+            .sectionQuien__card-body{
+                padding-left: 0.5vw;
+                padding-right: 0.5vw;
+
+                
+                .sectionQuien__card-text{
+                    padding-top: 4vh;
+                    font-size: 1.5rem;
+                    font-weight: 300;
+                }
+
+                .sectionQuien__card-text:hover{
+                    color: $colorUno;
+                }
+            }
+
+            .sectionQuien__card-body:hover{
+                background: $colorDos;
+                transform: translate(-5vh,-5vh);
+                transition: all 0.5s;
+            }
+        }
+
+        .sectionQuien__card:hover{
+            color: $colorUno;
+        }
+    }
+}

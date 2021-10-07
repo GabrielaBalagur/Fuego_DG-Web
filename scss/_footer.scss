@@ -1,0 +1,42 @@
+.footer{
+    @include textos($colorUno, 2rem , 300, center);
+    font-style: italic;
+    text-transform: uppercase;
+    background-color: $colorDos;
+
+    .footer__divFlex{
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .footer__leyenda{
+            padding-left: 2rem;
+            padding-top: 1rem;
+            font-size: 1rem;
+        }
+    
+        .footer__contacto{
+            text-decoration: none;
+            color: $colorUno;
+            font-weight: 700;
+            font-size: 1.5rem;
+            font-style: normal;
+
+            &:hover{
+                color: $colorTres;
+            }
+        }
+
+        .footer__redes{
+            width: 25%;
+            display: flex;
+            justify-content: space-around;
+
+            .footer__icono{
+                width: 50%;
+            }
+        }
+    }
+}
+
