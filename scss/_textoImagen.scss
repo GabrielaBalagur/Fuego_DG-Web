@@ -7,7 +7,7 @@
     }
 
     .textoImagen--right{
-        @include textos($colorDos, 9rem, bolder, right);
+        @include textos($colorDos, 16rem, bolder, right);
     }
 
     .textoImagen--right:hover{
@@ -17,7 +17,7 @@
     }
 
     .textoImagen--left{
-        @include textos($colorCinco, 9rem, bolder, left);
+        @include textos($colorCinco, 16rem, bolder, left);
     }
 
     .textoImagen--left:hover{

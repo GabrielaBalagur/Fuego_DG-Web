@@ -2,12 +2,13 @@
     height: 100vh;
     color: $colorCinco;
     background: linear-gradient(to right, $colorTres, $colorSeis);
+    background-size: 100%;
     display: flex;
     align-items: center;
     padding: 10vh;
 
     .form{
-        font-size: 1.5rem;
+        font-size: 3rem;
         display: flex;
         flex-direction: column;
         justify-items: flex-end;
@@ -17,8 +18,7 @@
         .form label{
             color: $colorSeis;
         }
-        .form__campo{
-            
+        .form__campo{            
             border: none;
             background-color: $colorCinco;
             opacity: 50%;

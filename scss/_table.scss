@@ -5,13 +5,13 @@
     padding: 1vw;
 
     .table__th{
-        @include textos($colorCinco, 2rem, 500, center);
+        @include textos($colorCinco, 4rem, 500, center);
         text-transform: uppercase;
         padding: 1vw;
     }
 
     .table__td{
-        @include textos($colorCinco, 1.5rem, 400, center);
+        @include textos($colorCinco, 3rem, 400, center);
         line-height: 3vw;
     }
 }

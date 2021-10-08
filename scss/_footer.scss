@@ -13,14 +13,14 @@
         .footer__leyenda{
             padding-left: 2rem;
             padding-top: 1rem;
-            font-size: 1rem;
+            font-size: 2rem;
         }
     
         .footer__contacto{
             text-decoration: none;
             color: $colorUno;
             font-weight: 700;
-            font-size: 1.5rem;
+            font-size: 3rem;
             font-style: normal;
 
             &:hover{
@@ -34,7 +34,7 @@
             justify-content: space-around;
 
             .footer__icono{
-                width: 50%;
+                width: 100%;
             }
         }
     }
