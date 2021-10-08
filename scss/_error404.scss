@@ -9,11 +9,11 @@
 
     .mainError__texto h3{
         padding-top: 4rem;
-        @include textos($colorDos, 2rem ,500 , center);
+        @include textos($colorDos, 1rem ,500 , center);
     }
 
     .mainError__texto p{
-        @include textos($colorCinco, 3rem ,500 , center);
+        @include textos($colorCinco, 1.5rem ,500 , center);
     }
 
     .mainError__boton404Volver{

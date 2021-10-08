@@ -1,5 +1,5 @@
 .footer{
-    @include textos($colorUno, 2rem , 300, center);
+    @include textos($colorUno, 1rem , 300, center);
     font-style: italic;
     text-transform: uppercase;
     background-color: $colorDos;
@@ -13,14 +13,14 @@
         .footer__leyenda{
             padding-left: 2rem;
             padding-top: 1rem;
-            font-size: 2rem;
+            font-size: 1rem;
         }
     
         .footer__contacto{
             text-decoration: none;
             color: $colorUno;
             font-weight: 700;
-            font-size: 3rem;
+            font-size: 1.5rem;
             font-style: normal;
 
             &:hover{

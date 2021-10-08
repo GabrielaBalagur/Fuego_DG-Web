@@ -3,7 +3,7 @@
     justify-content: center;
 
     .boton__link{
-        @include textos($colorCinco, 3rem, 600, center);
+        @include textos($colorCinco, 1.5rem, 600, center);
         padding: 1rem;
         margin-bottom: 4rem;
         border: outset;

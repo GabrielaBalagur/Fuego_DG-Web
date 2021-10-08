@@ -7,7 +7,7 @@
 
     .sectionQuien__titulo{
         /*textos: $colorLetra:elegir color en "_variables", $tamanioLetra: en rem*/
-        @include textos($colorDos, 6rem ,500 , right);
+        @include textos($colorDos, 3rem ,500 , right);
         padding: 4vw 4vw 1vw 0vw;
     }
 
@@ -42,18 +42,18 @@
                 padding-right: 0.5vw;
                 
                 .card-title{
-                    font-size: 4rem;
+                    font-size: 3rem;
                     font-weight: 500;
                 }
 
                 .card-subtitle{
-                    font-size: 3rem;
+                    font-size: 2rem;
                     font-weight: 400;
                 }
                 
                 .sectionQuien__card-text{
                     padding-top: 4vh;
-                    font-size: 3rem;
+                    font-size: 2rem;
                     font-weight: 300;
                 }
 
