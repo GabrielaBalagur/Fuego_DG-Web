@@ -1,5 +1,5 @@
 .mainContacto{
-    height: 100vh;
+    height: auto;
     color: $colorCinco;
     background: linear-gradient(to right, $colorTres, $colorSeis);
     background-size: 100%;
@@ -7,6 +7,7 @@
     align-items: center;
     padding: 10vh;
 
+    /*COMIENZO FORM*/
     .form{
         font-size: 1.5rem;
         display: flex;
@@ -55,7 +56,7 @@
         .mainContacto__select{
             background-color: transparent;
             color: $colorCinco;
-            border-color: $colorCinco 3px;
+            border-color: $colorCinco;
         }
         .formGenero{
             display: flex;
@@ -67,5 +68,6 @@
             justify-content: center;
         }
     }
+    /*FIN FORM*/
 }
 

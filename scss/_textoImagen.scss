@@ -1,13 +1,13 @@
 .textoImagen{
-    width: 50%;
-    padding: 4vh;
+    width: 40%;
+    margin: 4vw;
 
     .textoImagen__palabra{
         line-height: 3.5vw;
     }
 
     .textoImagen--right{
-        @include textos($colorDos, 8rem, bolder, right);
+        @include textos($colorDos, 8rem, bolder, right);  
     }
 
     .textoImagen--right:hover{
